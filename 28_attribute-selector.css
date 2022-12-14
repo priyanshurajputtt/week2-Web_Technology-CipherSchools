@@ -1,0 +1,27 @@
+input[type="text"] {
+    color: red;
+    background-color: aliceblue;
+}
+
+input[type="passoword"] {
+    background-color: aquamarine;
+}
+
+/* a[href = "https://google.co.in"] {
+    color: red;
+} */
+
+/* a[href *= "google"] {
+    color: red;
+} */
+
+/* a[href ^= "https"] {
+    color: red;
+} */
+
+a[href $= "com"] {
+    color: red;
+}
+
+/* ^ - for selecting starting with attribute */
+/* $ - for selecting ending with attribute */

@@ -1,0 +1,38 @@
+/* *{
+    color: blue;
+} */
+/* the above selector is used select for all the elements of page  */
+header{
+    background-color: #F0EBEB;
+}
+
+section.my-article{
+    background-color: #f2e9e9;
+}
+
+header p {
+    color: red;
+}
+
+li a {
+    color: blue;
+}
+
+/* section.my-article h2{
+    color: green;
+} */
+
+/* for child */
+section.my-article >h2{
+    color: green;
+}
+
+
+section.my-article h2+p{
+    color: orangered;
+}
+
+ul+p{
+    color: green;
+}
+
